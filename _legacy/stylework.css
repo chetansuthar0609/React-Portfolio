@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Heebo", sans-serif;
+}
+
+body {
+    background-color: rgba(152, 157, 158, 0.389) !important;
+}
+
+
+/* header  */
+
+header {
+    background-color: rgb(208, 208, 208);
+    z-index: 2;
+}
+
+.headerdiv {
+    width: 80%;
+}
+
+.headerdiv nav ul li a {
+    color: rgba(33, 36, 61, 1);
+    transition: 0.2s;
+}
+
+.headerdiv nav ul li a:hover {
+    transform: scale(1.1, 1.1);
+}
+
+
+.headerdiv .nav p a {
+    color: rgba(33, 36, 61, 1);
+    transition: 0.2s;
+    font-size: 36px;
+}
+
+.headerdiv .nav p a:hover {
+    transform: scale(1.1, 1.1);
+}
+
+
+/* section2 */
+
+.Main_section_2 .section_2 {
+    width: 80%;
+    margin: 6% 0 8% 0;
+}
+
+.Main_section_2 .section_2 .div_1 h1 {
+    color: rgba(33, 36, 61, 1);
+    font-weight: 700;
+}
+
+.Main_section_2 .section_2 {
+    width: 80%;
+}
+
+.Main_section_2 .section_2 .div_1 .inner_div1 .insidediv_1 img {
+    width: 28vw;
+    height: 16vw;
+    box-shadow: 0px 0px 5px 1px;
+    transition: 0.2s;
+}
+
+.Main_section_2 .section_2 .div_1 .inner_div1 .insidediv_1 img:hover {
+    transform: scale(1.1,1.1);
+}
+
+.Main_section_2 .section_2 .div_1 .inner_div1 .insidediv_2 h3 span {
+    background: rgba(255, 100, 100, 1);
+    font-size: 16px;
+}
+
+.Main_section_2 .section_2 .div_1 .inner_div1 .insidediv_2 h3 a {
+    color: rgba(33, 36, 61, 1);
+}
+
+.Main_section_2 .section_2 .div_1 .inner_div1 .insidediv_2 p {
+    text-align: justify;
+}
+
+.Main_section_2 .section_2 .div_1 .inner_div2 .insidediv_1 img {
+    width: 28vw;
+    height: 16vw;
+    box-shadow: 0px 0px 5px 1px ;
+    transition: 0.2s;
+}
+
+.Main_section_2 .section_2 .div_1 .inner_div2 .insidediv_1 img:hover {
+    transform: scale(1.1,1.1);
+}
+
+.Main_section_2 .section_2 .div_1 .inner_div2 .insidediv_2 h3 span {
+    background: rgba(255, 100, 100, 1);
+    font-size: 16px;
+}
+
+.Main_section_2 .section_2 .div_1 .inner_div2 .insidediv_2 h3 a {
+    color: rgba(33, 36, 61, 1);
+}
+
+.Main_section_2 .section_2 .div_1 .inner_div2 .insidediv_2 p {
+    text-align: justify;
+}
+
+.Main_section_2 .section_2 .div_1 .inner_div3 .btn {
+    background: rgba(255, 100, 100, 1);
+    color: white;
+    transition:  0.2s;
+    box-shadow: 0 0 5px rgba(255, 100, 100, 1);
+}
+
+.Main_section_2 .section_2 .div_1 .inner_div3 .btn:hover {
+    background-color: rgba(33, 36, 61, 1);
+    transform: scale(1.2,1.2);
+}
+
+/* footer  */
+
+.innerdiv_1 {
+    overflow: hidden;
+}
+
+.innerdiv_1 h1 {
+    transition: transform 0.3s ease;
+    display: inline-block;
+    color: rgba(33, 36, 61, 1);
+}
+
+.innerdiv_1 h1:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+.Main_footer .footer .div_1 .innerdiv_2 .icon {
+    transition: 0.2s;
+}
+
+.Main_footer .footer .div_1 .innerdiv_2 .icon:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.Main_footer .footer .div_1 .innerdiv_3 {
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    letter-spacing: 2px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.line {
+    border: 1px solid white;
+    margin: 15px 0px 5px 0px;
+}
+
+.Main_footer {
+    background-color: rgb(123, 118, 118);
+}
