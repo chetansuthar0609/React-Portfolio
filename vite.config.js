@@ -3,7 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // Relative base so the build works on GitHub Pages under /Portfolio/ and on any static host.
 export default defineConfig({
-  base: './',
   plugins: [react()],
   base: '/React-Portfolio/',
   build: {
